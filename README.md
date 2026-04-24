@@ -72,12 +72,27 @@ python realtime_server.py
 * Press `P` to connect
 * Press `M` for ML driving
 
-## 🚀 Future Scope
+##  Future Scope
 
 * Real-world implementation
 * Camera-based vision (CNN)
 * Reinforcement learning
+* 
+##  Project Structure
 
+- Assets/ → Unity project files  
+- ProjectSettings/ → Unity configuration  
+- realtime_server.py → ML training server  
+- README.md → Documentation  
+
+
+## Project Highlights
+
+- Built a real-time ML pipeline integrating Unity and Python via TCP
+- Implemented behavioral cloning for autonomous driving
+- Designed sensor-based perception using raycasting (LIDAR-like)
+- Achieved significant loss reduction (~0.088 → ~0.01)
+- Enabled continuous learning across sessions using replay buffer
 
 ## 👨‍💻 Author
 
